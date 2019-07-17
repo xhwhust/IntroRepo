@@ -1,3 +1,14 @@
+# 简易流程总结
+1. 在 github上新建一个仓库，并添加README.md
+2. 在本地新建一个文件夹
+3. 使用 git init 初始化本地仓库
+4. 使用 git remote add origin git@github.com:xhwhust/(仓库名).git 连接到远程仓库
+5. 使用 git pull origin master --allow-unrelated-histories 把远程仓库同步到本地
+6. git add *
+7. git commit -m 'info'
+8. 使用 git push -u origin master首次推送
+9. 使用 git push origin master推送
+
 # 创建本地仓库（工作区）
 * 在仓库目录下启动git bash或者用cd命令使其在仓库目录下
 * 使用命令git init初始化仓库，会生成隐藏文件夹.git
